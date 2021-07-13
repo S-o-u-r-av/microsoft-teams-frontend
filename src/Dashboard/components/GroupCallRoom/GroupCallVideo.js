@@ -2,8 +2,8 @@ import React, { useRef, useEffect } from 'react';
 
 const styles = {
     videoContainer: {
-        width: '100px',
-        height: '100px'
+        width: '150px',
+        height: '150px'
     },
     videoElement: {
         width: '100%',
@@ -27,8 +27,8 @@ const GroupCallVideo = ({ stream }) => {
         <
         video ref = { videoRef }
         autoPlay style = { styles.videoElement }
-        /> <
-        /div>
+        /> < /
+        div >
     );
 };
 
