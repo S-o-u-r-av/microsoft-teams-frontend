@@ -9,6 +9,7 @@ const initState = {
     rejected: false,
     reason: ''
   },
+
   remoteStream: null,
   localCameraEnabled: true,
   localMicrophoneEnabled: true,
@@ -20,6 +21,8 @@ const initState = {
     content: ''
   }
 };
+
+
 
 const reducer = (state = initState, action) => {
   switch (action.type) {

@@ -36,6 +36,7 @@ const LoginPage = ({ saveUsername }) => {
 };
 
 const mapActionsToProps = (dispatch) => {
+
   return {
     saveUsername: username => dispatch(setUsername(username))
   };
